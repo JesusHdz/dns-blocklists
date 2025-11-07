@@ -1,4 +1,4 @@
-## dns_blocklists
+## dns-blocklists
 
 A custom DNS filter for AdGuard Pro designed to block website access.
 I created my own blocklist to be more mindful and purposeful with my device usage.
