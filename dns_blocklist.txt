@@ -1,0 +1,24 @@
+! Title: Basic AdGuard DNS Blocklist
+! Description: An basic blocklist for Adguard
+! Version: 2025.11.07
+! Expires: 7 days
+! Homepage: https://github.com/JesusHdz/dns-blocklists
+! License: MIT
+
+! =====Blocklist Information=====
+! Purpose: To prevent access of websites
+! Resource: https://adguard-dns.io/kb/general/dns-filtering-syntax/
+! Instructions: Each rule starts with "||" and ends with "^"
+! ||example.com^   blocks example.com and all subdomains
+
+! =====Blocklist=====
+||youtube.com^
+
+! =====Whitelist Information=====
+! Purpose: To allow access to specific websites
+! Resource: https://adguard-dns.io/kb/general/dns-filtering-syntax/
+! Instructions: Each rule starts with "@@||" and ends with "^"
+! @@||example.com^   allows example.com and all subdomains, even if blocked elsewhere
+
+! =====Whitelist=====
+@@||music.youtube.com^
